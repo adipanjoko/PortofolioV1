@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+    <title>Adi Panjoko - Portfolio</title>
+    <meta name="author" content="Adi Panjoko">
+    <meta
+      name="description"
+      content="Personal portfolio of Adi Panjoko - IT & Wellness Consultant, Sports Coach, and Network Administrator."
+    >
+    <link rel="icon" href="include/images/favicon.jpg" sizes="32x32">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="include/css/bootstrap.min.css" type="text/css">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="include/css/swiper-bundle.min.css" type="text/css">
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="include/css/fontawesome.min.css" type="text/css">
+    <!-- All custom Css here -->
+    <link href="include/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="d-flex flex-column">
+    <!-- ============================ HEADER START ============================== -->
+    <header id="header" class="header-v3 d-flex transition">
+      <a class="navbar-brand text-white" style="font-family: 'Dela Gothic One', cursive; font-size: 2rem; letter-spacing: 2px; text-transform: uppercase; text-decoration: none;" href="#">ADI.</a>
+      <div class="header-img-hold z-index-1">
+        <img class="w-100 h-100 img-cover d-block d-md-none d-xl-block" src="include/images/hero.jpg" alt="">
+        <img class="w-100 h-100 img-cover d-none d-md-block d-xl-none" src="include/images/hero-tablet.jpg" alt="">
+      </div>
+      <div class="header-content d-flex flex-column align-items-start justify-content-end z-index-2">
+        <h1 class="mb-2 text-uppercase">Adi Panjoko</h1>
+        <h2 class="mb-12 font-primary fw-bold" id="text_change">IT & Wellness Consultant</h2>
+        <div id="text_change_list" style="display: none">
+          <span>IT & Wellness Consultant</span>
+          <span>Network Administrator</span>
+          <span>Sports Coach</span>
+          <span>Ketua Karang Taruna</span>
+        </div>
+        <ul class="d-flex flex-wrap gap-4">
+          <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="navbar-outer">
+      <div class="navbar w-100 h-100 transition position-relative p-0">
+        <div class="navbar-block-wrapper d-flex flex-column w-100 h-100 position-relative navbar-grid-3">
+          <div class="navbar-block navbar-v3-block bg-gradient-1 z-index-10" data-target="about-section" id="nav-about">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Tentang Saya
+            </h2>
+            <h3 class="hero-heading">Saya Adi Panjoko, Konsultan IT & Pelatih Olahraga dari Boyolali.</h3>
+            <div class="navbar-icon"><img src="include/images/about-icon.png" alt=""></div>
+          </div>
+          <div class="navbar-block navbar-v3-block bg-gradient-2 z-index-9" data-target="services-section" id="nav-services">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Layanan
+            </h2>
+            <h3 class="hero-heading">Solusi jaringan, server, hingga program kepelatihan fisik terpadu.</h3>
+            <div class="navbar-icon"><img src="include/images/services-icon.png" alt=""></div>
+          </div>
+          <div class="navbar-block navbar-v3-block bg-gradient-3 z-index-8" data-target="portfolio-section" id="nav-portfolio">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Portofolio
+            </h2>
+            <h3 class="hero-heading">Melihat karya dan dedikasi saya di bidang IT dan pemberdayaan masyarakat.</h3>
+            <div class="navbar-icon"><img src="include/images/portfolio-icon.png" alt=""></div>
+          </div>
+          <div class="navbar-block navbar-v3-block bg-gradient-4 z-index-7" data-target="resume-section" id="nav-resume">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Resume
+            </h2>
+            <h3 class="hero-heading">Jejak pengalaman, pendidikan, serta keahlian teknis & kepemimpinan.</h3>
+            <div class="navbar-icon"><img src="include/images/resume-icon.png" alt=""></div>
+          </div>
+          <div class="navbar-block navbar-v3-block bg-gradient-5 z-index-6" data-target="blog-section" id="nav-blog">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Kegiatan
+            </h2>
+            <h3 class="hero-heading">Dokumentasi Karang Taruna dan aktivitas kepelatihan olahraga.</h3>
+            <div class="navbar-icon"><img src="include/images/blog-icon.png" alt=""></div>
+          </div>
+          <div class="navbar-block navbar-v3-block bg-gradient-6 z-index-5" data-target="contact-section" id="nav-contact">
+            <h2 class="d-flex transition">
+              <span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span>Kontak
+            </h2>
+            <h3 class="hero-heading">Mari terhubung dan berkolaborasi untuk memajukan potensi yang ada.</h3>
+            <div class="navbar-icon"><img src="include/images/contact-icon.png" alt=""></div>
+          </div>
+        </div>
+        <div class="scroll-down d-flex">
+          <a href="#main" class="link link-xl text-white" data-text="Scroll"><span>Scroll</span> <b class="arrow outline"><i class="fa-solid fa-arrow-down"></i></b></a>
+        </div>
+        <div class="go-back">
+          <a href="#main" class="link link-xl back-to-menu text-white" data-text="Back to Menu"><span>Back to Menu</span> <b class="arrow outline"><i class="fa-solid fa-arrow-right"></i></b></a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-toggler d-xl-none"><a href="#" class="nav-toggle-btn"><span></span></a></div>
+    <!-- ============================ HEADER END ============================== -->
+    <main id="main" class="position-relative">
+      <!-- ============================ ABOUT SECTION START ============================ -->
+      <div class="page-section position-relative overflow-hidden" id="about-section">
+        <div class="content-container">
+          <div class="container">
+            <div class="row mb-120 tab-mb-64">
+              <div class="col-lg-6 tab-mb-64 animate-child">
+                <h2 class="page-heading text-clip bg-gradient-1">Hi, saya Adi Panjoko.</h2>
+                <div class="animate-child">
+                  <p>
+                    Saya adalah seorang konsultan IT dan kebugaran yang berdomisili di Kismoyoso, Ngemplak, Boyolali. Dengan latar belakang pendidikan Sarjana Pendidikan Kepelatihan Olahraga, saya memiliki kombinasi unik antara disiplin ilmu atletik serta keahlian teknis mendalam di bidang infrastruktur jaringan dan server.
+                  </p>
+                  <p>
+                    Selain aktif melayani masyarakat sebagai Ketua Karang Taruna Bina Bunga Taruna, saya juga sedang mendalami bahasa Jepang untuk persiapan sertifikasi JLPT N3, dengan berpegang teguh pada prinsip 寄り添う (mendampingi), 自立支援 (mendukung kemandirian), dan 尊厳 (menjaga martabat).
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 animate-child">
+                <div class="about-img-container position-relative w-100 h-100 rounded-5 overflow-hidden shadow">
+                  <div class="about-img-hold position-relative w-100 h-100 z-index-1">
+                    <img src="include/images/about-img.jpg" alt="" class="w-100 h-100 img-cover">
+                  </div>
+                  <div class="signature-hold position-absolute z-index-2">
+                    <!-- Gunakan logo/signature Anda jika ada -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- (Bottom Page Nav Overlay Setup) -->
+        <div class="page-nav-container d-flex">
+          <a href="#nav-contact" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-6 z-index-2" data-target="contact-section" data-overlay="nav-overlay-contact">
+            <h2 class="d-flex transition position-relative">Kontak<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/contact-icon.png" alt=""></div>
+          </a>
+          <a href="#nav-services" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-2 z-index-1" data-target="services-section" data-overlay="nav-overlay-services">
+            <h2 class="d-flex transition position-relative">Layanan<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/services-icon.png" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <!-- ============================ ABOUT SECTION END ============================ -->
+
+      <!-- ============================ SERVICES SECTION START ============================ -->
+      <div class="page-section position-relative overflow-hidden" id="services-section">
+        <div class="content-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10">
+                <div class="page-heading-wrapper mb-90 tab-mb-64">
+                  <div class="col-lg-11 animate-child">
+                    <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-2">Kombinasi layanan teknis dan kebugaran jasmani.</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="service-left-container pe-lg-5 animate-child">
+                      <h5>Mengelola infrastruktur digital sekaligus memaksimalkan potensi fisik.</h5>
+                      <p>Keahlian saya mencakup pengaturan server/jaringan tingkat lanjut hingga perencanaan program latihan atletik terpadu.</p>
+                      <div class="pe-lg-5">
+                        <div class="service-list-wrapper">
+                          <ul class="service-list customTab animate-child" id="services-tab" role="tablist">
+                            <li class="d-flex mb-2" role="presentation">
+                              <h4 class="service-link font-primary fw-bold transition mb-0 position-relative active" id="service1-tab" data-bs-toggle="tab" data-bs-target="#service1" role="tab" aria-selected="true">Network Admin (MikroTik)<sup class="transition text-clip bg-gradient-2">01</sup></h4>
+                            </li>
+                            <li class="d-flex mb-2" role="presentation">
+                              <h4 class="service-link font-primary fw-bold transition mb-0 position-relative" id="service2-tab" data-bs-toggle="tab" data-bs-target="#service2" role="tab" aria-selected="false">VPS & Cloud Server<sup class="transition text-clip bg-gradient-2">02</sup></h4>
+                            </li>
+                            <li class="d-flex mb-2" role="presentation">
+                              <h4 class="service-link font-primary fw-bold transition mb-0 position-relative" id="service3-tab" data-bs-toggle="tab" data-bs-target="#service3" role="tab" aria-selected="false">Sports Coaching<sup class="transition text-clip bg-gradient-2">03</sup></h4>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 animate-child">
+                    <div class="service-right-container">
+                      <div class="tab-content h-100 w-100" id="services-tabContent">
+                        <!-- Service 1 -->
+                        <div class="tab-pane w-100 h-100 show active" id="service1" role="tabpanel">
+                          <div class="service-details-outer custom-tab-content w-100 h-100 reveal">
+                            <div class="service-details-container w-100 h-100 position-relative">
+                              <div class="service-details p-4 overflow-hidden shadow rounded-5 mt-4">
+                                <h4 class="font-primary fw-bold"><span class="text-clip bg-gradient-2">01. Network Administration</span></h4>
+                                <p>Instalasi, konfigurasi, dan optimalisasi jaringan menggunakan MikroTik, OpenWRT, dan integrasi WireGuard VPN.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Service 2 -->
+                        <div class="tab-pane w-100 h-100" id="service2" role="tabpanel">
+                          <div class="service-details-outer custom-tab-content w-100 h-100">
+                            <div class="service-details-container w-100 h-100 position-relative">
+                              <div class="service-details p-4 overflow-hidden shadow rounded-5 mt-4">
+                                <h4 class="font-primary fw-bold"><span class="text-clip bg-gradient-2">02. Server Management</span></h4>
+                                <p>Pengelolaan bare metal server, Virtual Private Server (VPS) dari Herza/Oracle, serta deployment website via Cloudflare Pages.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Service 3 -->
+                        <div class="tab-pane w-100 h-100" id="service3" role="tabpanel">
+                          <div class="service-details-outer custom-tab-content w-100 h-100">
+                            <div class="service-details-container w-100 h-100 position-relative">
+                              <div class="service-details p-4 overflow-hidden shadow rounded-5 mt-4">
+                                <h4 class="font-primary fw-bold"><span class="text-clip bg-gradient-2">03. Sports Coaching</span></h4>
+                                <p>Pelatihan lari jarak pendek, instruksi kebugaran/gym, berenang, dan dukungan metodologi atletik berlandaskan pendidikan olahraga formal.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-nav-container d-flex">
+          <a href="#nav-about" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-1 z-index-2" data-target="about-section" data-overlay="nav-overlay-about">
+            <h2 class="d-flex transition position-relative">About<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/about-icon.png" alt=""></div>
+          </a>
+          <a href="#nav-portfolio" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-3 z-index-1" data-target="portfolio-section" data-overlay="nav-overlay-portfolio">
+            <h2 class="d-flex transition position-relative">Portfolio<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/portfolio-icon.png" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <!-- ============================ SERVICES SECTION END ============================ -->
+
+      <!-- ============================ PORTFOLIO SECTION START ============================ -->
+      <div class="page-section position-relative overflow-hidden" id="portfolio-section">
+        <div class="content-container">
+          <div class="container">
+            <div class="row mb-120 tab-mb-64">
+              <div class="col-lg-10">
+                <div class="page-heading-wrapper mb-90 tab-mb-64">
+                  <div class="col-lg-11 animate-child">
+                    <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-3">Karya & Proyek Terpilih.</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-11 mx-auto animate-child">
+                <div class="swiper portfolio-slider overflow-visible">
+                  <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item swiper-slide">
+                      <div class="portfolio-box-wrapper">
+                        <div class="portfolio-box">
+                          <div class="portfolio-title transition position-relative z-index-10">
+                            <h2>Sistem Informasi Karang Taruna Jampen</h2>
+                          </div>
+                          <div class="portfolio-box-img position-relative shadow">
+                            <img src="include/images/portfolio1.jpg" alt="">
+                          </div>
+                          <div class="portfolio-category mb-120 tab-mb-80 mob-mb-24 d-flex flex-column gap-2 align-items-end">
+                            <span class="px-3 py-2 rounded-pill fw-bold shadow">Web Development</span>
+                            <span class="px-3 py-2 rounded-pill fw-bold shadow">Cloudflare Pages</span>
+                            <span class="px-3 py-2 rounded-pill fw-bold shadow">Community</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-nav-container d-flex">
+          <a href="#nav-services" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-2 z-index-2" data-target="services-section" data-overlay="nav-overlay-services">
+            <h2 class="d-flex transition position-relative">Services<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/services-icon.png" alt=""></div>
+          </a>
+          <a href="#nav-resume" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-4 z-index-1" data-target="resume-section" data-overlay="nav-overlay-resume">
+            <h2 class="d-flex transition position-relative">Resume<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/resume-icon.png" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <!-- ============================ PORTFOLIO SECTION END ============================ -->
+
+      <!-- ============================ RESUME SECTION START ============================ -->
+      <div class="page-section position-relative overflow-hidden" id="resume-section">
+        <div class="content-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10">
+                <div class="page-heading-wrapper mb-90 tab-mb-64">
+                  <div class="col-lg-11 animate-child">
+                    <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-4">Pengalaman dan Keahlian Profesional.</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Experiences -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="experience-list-wrapper animate-child">
+                  <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-4">Pengalaman Kerja</h2>
+                  <div class="experience-list">
+                    <div class="experience-item">
+                      <div class="experience-box row gap-3 gap-lg-0 animate-child">
+                        <div class="experience-box-left col-lg-3"><h5 class="mb-0">Saat Ini</h5></div>
+                        <div class="experience-box-mid col-lg-5">
+                          <h5 class="font-primary fw-bold mb-0">Ketua Karang Taruna</h5>
+                          <p>di <a href="#" class="text-clip bg-gradient-2" target="_blank">Bina Bunga Taruna</a>, Jampen</p>
+                        </div>
+                        <div class="experience-box-right col-lg-4">
+                          <p>Memimpin organisasi kepemudaan, mengelola program kegiatan warga, serta mendigitalisasi layanan masyarakat melalui pengembangan website resmi komunitas.</p>
+                        </div>
+                      </div>
+                      <hr class="my-5">
+                    </div>
+                    <div class="experience-item">
+                      <div class="experience-box row gap-3 gap-lg-0 animate-child">
+                        <div class="experience-box-left col-lg-3"><h5 class="mb-0">4+ Tahun</h5></div>
+                        <div class="experience-box-mid col-lg-5">
+                          <h5 class="font-primary fw-bold mb-0">Athletic Instructor & Support</h5>
+                          <p>di <a href="#" class="text-clip bg-gradient-2" target="_blank">National Paralympic Committee of Indonesia</a></p>
+                        </div>
+                        <div class="experience-box-right col-lg-4">
+                          <p>Memberikan instruksi kepelatihan olahraga dan pendampingan atlet untuk kesiapan fisik kompetisi nasional.</p>
+                        </div>
+                      </div>
+                      <hr class="my-5">
+                    </div>
+                    <div class="experience-item">
+                      <div class="experience-box row gap-3 gap-lg-0 animate-child">
+                        <div class="experience-box-left col-lg-3"><h5 class="mb-0">Freelance</h5></div>
+                        <div class="experience-box-mid col-lg-5">
+                          <h5 class="font-primary fw-bold mb-0">IT & Network Consultant</h5>
+                          <p>di <a href="#" class="text-clip bg-gradient-2" target="_blank">Self-Employed</a>, Boyolali</p>
+                        </div>
+                        <div class="experience-box-right col-lg-4">
+                          <p>Melakukan instalasi infrastruktur jaringan (MikroTik, OpenWRT, WireGuard), manajemen VPS, dan perancangan sistem CCTV.</p>
+                        </div>
+                      </div>
+                      <hr class="my-5">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="education-list-wrapper animate-child mt-120 tab-mt-64">
+                  <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-4">Pendidikan</h2>
+                  <div class="education-list">
+                    <div class="education-item">
+                      <div class="education-box row gap-3 gap-lg-0 animate-child">
+                        <div class="education-box-left col-lg-3"><h5 class="mb-0">Gelar Sarjana</h5></div>
+                        <div class="education-box-mid col-lg-5">
+                          <h5 class="font-primary fw-bold opacity-75 mb-0">Pendidikan Kepelatihan Olahraga</h5>
+                          <p class="opacity-50">S1</p>
+                        </div>
+                        <div class="education-box-right col-lg-4">
+                          <p>Mendalami metodologi pelatihan fisik terstruktur, anatomi olahraga, dan instruksi pembinaan atletik.</p>
+                        </div>
+                      </div>
+                      <hr class="my-5">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="skills-list-wrapper animate-child mt-120 tab-mt-64">
+                  <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-4">Keahlian (Skills)</h2>
+                  <div class="skills-list">
+                    
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-network-wired fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">Networking (MikroTik/OpenWRT)</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="95">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-server fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">VPS & Server Management</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="90">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+                    
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-cloud fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">Web Deployment (Cloudflare/Git)</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="85">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-person-running fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">Sports Coaching & Athletics</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="100">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-language fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">Japanese (JLPT N3 Prep)</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="75">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+
+                    <div class="skills-item">
+                      <div class="skills-box w-100 d-flex align-items-center animate-child">
+                        <div class="skills-icon shadow rounded-4 me-3 p-3 bg-gradient-4"><i class="fa-solid fa-users fa-2x"></i></div>
+                        <div class="skills-name h3 mb-0 fw-bold text-clip bg-gradient-2">Community Leadership</div>
+                        <div class="skills-percentage h3 mb-0 ms-auto fw-bold"><b class="count" data-target="95">0</b>%</div>
+                      </div><hr class="my-5">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-nav-container d-flex">
+          <a href="#nav-portfolio" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-3 z-index-2" data-target="portfolio-section" data-overlay="nav-overlay-portfolio">
+            <h2 class="d-flex transition position-relative">Portfolio<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/portfolio-icon.png" alt=""></div>
+          </a>
+          <a href="#nav-blog" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-5 z-index-1" data-target="blog-section" data-overlay="nav-overlay-blog">
+            <h2 class="d-flex transition position-relative">Blog<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/blog-icon.png" alt=""></div>
+            <div class="nav-link-overlay page-nav-child bg-gradient-5"></div>
+          </a>
+        </div>
+      </div>
+      <!-- ============================ RESUME SECTION END ============================ -->
+
+      <!-- ============================ CONTACT SECTION START ============================ -->
+      <div class="page-section position-relative overflow-hidden" id="contact-section">
+        <div class="content-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10">
+                <div class="page-heading-wrapper mb-90 tab-mb-64">
+                  <div class="col-lg-11 animate-child">
+                    <h2 class="page-heading mb-48 mob-mb-24 text-clip bg-gradient-6">Kirim Pesan atau Hubungi Saya.</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="row animate-child">
+                  <div class="col-lg-4 mb-3">
+                    <h5 class="opacity-75">Butuh konsultasi infrastruktur jaringan, program kebugaran, atau diskusi organisasi Karang Taruna? Kirimkan pesan melalui formulir berikut.</h5>
+                  </div>
+                  <div class="col-lg-7 ms-auto">
+                    <div class="form-container">
+                      <!-- Gunakan layanan pihak ke-3 (seperti formspree.io) untuk action form agar berfungsi tanpa server PHP backend -->
+                      <form method="post" action="https://formspree.io/f/ganti_dengan_ID_form_anda" id="messageForm">
+                        <div class="mb-4">
+                          <label for="name" class="form-label">Nama</label>
+                          <input type="text" name="name" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-4">
+                          <label for="email" class="form-label">Alamat Email</label>
+                          <input type="email" name="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-4">
+                          <label for="phone" class="form-label">Nomor HP / WA</label>
+                          <input type="tel" name="phone" class="form-control" id="phone" required>
+                        </div>
+                        <div class="mb-4">
+                          <label for="message" class="form-label">Pesan Anda</label>
+                          <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+                        </div>
+                        <div class="position-relative mt-4">
+                          <button type="submit" class="link link-xxl text-body-color" data-text="Kirim Pesan"><span>Kirim Pesan</span></button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row"><div class="col-lg-12"><hr class="mt-64 mb-64"></div></div>
+            
+            <div class="row g-4 animate-child">
+              <div class="col-lg-4">
+                <div class="quick-contact">
+                  <h6 class="text-clip bg-gradient-6 mb-0 font-primary fw-bold">Email</h6>
+                  <p><a href="mailto:adipanjoko77546@gmail.com" class="link text-body-color" data-text="adipanjoko77546@gmail.com"><span>adipanjoko77546@gmail.com</span></a></p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="quick-contact">
+                  <h6 class="text-clip bg-gradient-6 mb-0 font-primary fw-bold">Lokasi Saya</h6>
+                  <p>Kismoyoso, Ngemplak, <br>Boyolali, Jawa Tengah</p>
+                </div>
+              </div>
+            </div>
+            <div class="row"><div class="col-lg-12"><hr class="mt-64 mb-64"></div></div>
+          </div>
+        </div>
+
+        <div class="page-nav-container d-flex">
+          <a href="#nav-resume" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-4 z-index-2" data-target="resume-section" data-overlay="nav-overlay-resume">
+            <h2 class="d-flex transition position-relative">Resume<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/resume-icon.png" alt=""></div>
+          </a>
+          <a href="#nav-about" class="page-nav-link page-nav-parent d-flex align-items-end w-100 position-relative overflow-hidden bg-gradient-1 z-index-1" data-target="about-section" data-overlay="nav-overlay-about">
+            <h2 class="d-flex transition position-relative">About<span class="arrow outline"><i class="fa-solid fa-arrow-right"></i></span></h2>
+            <div class="page-nav-icon"><img src="include/images/about-icon.png" alt=""></div>
+          </a>
+        </div>
+      </div>
+      <!-- ============================ CONTACT SECTION END ============================ -->
+
+      <!-- ============================ FOOTER START ============================ -->
+      <footer id="footer" class="py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>&copy; 2026 Adi Panjoko. All rights reserved.</div>
+                <div class="d-flex align-items-center gap-3">
+                  <div class="theme-switcher">
+                    <button class="theme-toggler">
+                      <span class="dark-icon d-flex align-items-center justify-content-center"><i class="fa-solid fa-moon"></i></span>
+                      <span class="light-icon d-flex align-items-center justify-content-center"><i class="fa-solid fa-sun"></i></span>
+                    </button>
+                  </div>
+                  <a href="#" class="go-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up-long"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ============================ FOOTER END ============================ -->
+
+      <!-- ============================ BOTTOM MENU OVERLAYS ============================ -->
+      <div class="nav-link-overlay page-nav-child bg-gradient-1" id="nav-overlay-about"></div>
+      <div class="nav-link-overlay page-nav-child bg-gradient-2" id="nav-overlay-services"></div>
+      <div class="nav-link-overlay page-nav-child bg-gradient-3" id="nav-overlay-portfolio"></div>
+      <div class="nav-link-overlay page-nav-child bg-gradient-4" id="nav-overlay-resume"></div>
+      <div class="nav-link-overlay page-nav-child bg-gradient-5" id="nav-overlay-blog"></div>
+      <div class="nav-link-overlay page-nav-child bg-gradient-6" id="nav-overlay-contact"></div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="include/js/jquery-3.7.1.min.js"></script>
+    <script src="include/js/bootstrap.bundle.min.js"></script>
+    <script src="include/js/swiper-bundle.min.js"></script>
+    <script src="include/js/gsap.min.js"></script>
+    <script src="include/js/ScrollTrigger.min.js"></script>
+    <script src="include/js/SplitText.min.js"></script>
+    <script src="include/js/TextPlugin.min.js"></script>
+    <script src="include/js/jquery.validate.min.js"></script>
+    <script src="include/js/custom.js"></script>
+  </body>
+</html>
